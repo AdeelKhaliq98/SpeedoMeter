@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/radar"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_satellite_dish_radar"
+        android:background="@color/white"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/digitalFragmentTimeTV"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/digitalFragmentTimeTV" />
+    <TextView
+        android:id="@+id/digitalAccuracyDigit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_marginStart="3dp"
+        android:textColor="#15BA15"
+        app:layout_constraintStart_toEndOf="@+id/radar"
+        app:layout_constraintTop_toTopOf="@id/radar"
+        app:layout_constraintBottom_toBottomOf="@id/radar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="m"
+        android:textColor="#15BA15"
+        android:layout_marginStart="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/digitalAccuracyDigit"
+        app:layout_constraintStart_toEndOf="@+id/digitalAccuracyDigit"
+        app:layout_constraintTop_toTopOf="@+id/digitalAccuracyDigit" />
+
+
+    <TextView
+        android:id="@+id/digitalFragmentTimeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ds_digib"
+        android:text="00:00:00"
+        android:textColor="#15BA15"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/svg"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@color/white"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ic_satellite_svgrepo_com"
+        app:layout_constraintBottom_toBottomOf="@+id/digitalFragmentTimeTV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/digitalFragmentTimeTV" />
+    <TextView
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:text="0/0"
+        android:textColor="#15BA15"
+        app:layout_constraintBottom_toBottomOf="@+id/svg"
+        app:layout_constraintEnd_toStartOf="@+id/svg"
+        app:layout_constraintTop_toTopOf="@+id/svg" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <TextView
+        android:id="@+id/digital_digit_speedview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:fontFamily="@font/ds_digib"
+        android:text="0"
+        android:textColor="#15BA15"
+        android:textSize="165dp"
+        app:layout_constraintBottom_toTopOf="@+id/distance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Km/h"
+        android:textColor="#15BA15"
+        android:fontFamily="@font/ds_digib"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/digital_digit_speedview"
+        app:layout_constraintStart_toStartOf="@+id/digital_digit_speedview"
+        app:layout_constraintTop_toBottomOf="@+id/digital_digit_speedview" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidline7percent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <TextView
+        android:id="@+id/digitalAvgspeedtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Avg Speed"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/digitalAvgSpeedDigit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guidline7percent" />
+
+    <TextView
+        android:id="@+id/digitalAvgSpeedDigit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ds_digib"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/digitalAvgspeedtv"
+        app:layout_constraintTop_toBottomOf="@id/digitalAvgspeedtv" />
+
+
+    <TextView
+        android:id="@+id/kmh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Km/h"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/digitalAvgSpeedDigit"
+        app:layout_constraintStart_toEndOf="@id/digitalAvgSpeedDigit" />
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/digitalDistanceDigit"
+        app:layout_constraintEnd_toStartOf="@id/maxspeedtv"
+        app:layout_constraintStart_toEndOf="@id/digitalAvgspeedtv"
+        app:layout_constraintTop_toTopOf="@id/guidline7percent" />
+
+    <TextView
+        android:id="@+id/digitalDistanceDigit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ds_digib"
+        android:text="0.00"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/distance"
+        app:layout_constraintTop_toBottomOf="@id/distance" />
+
+    <TextView
+        android:id="@+id/distancekm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Km"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@id/digitalDistanceDigit"
+        app:layout_constraintStart_toEndOf="@+id/digitalDistanceDigit" />
+
+
+    <TextView
+        android:id="@+id/maxspeedtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="Max Speed"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/digitalMaxSpeedDigit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guidline7percent" />
+
+    <TextView
+        android:id="@+id/digitalMaxSpeedDigit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ds_digib"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/maxspeedtv"
+        app:layout_constraintTop_toBottomOf="@id/maxspeedtv" />
+
+    <TextView
+        android:id="@+id/mSkmh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Km/h"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@id/digitalMaxSpeedDigit"
+        app:layout_constraintStart_toEndOf="@id/digitalMaxSpeedDigit" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidline8percent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+
+    <View
+        android:id="@+id/digitalStartImageBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guidline8percent"/>
+
+    <ImageView
+        android:id="@+id/digitalStartIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/digitalStartTrip"
+        android:layout_alignBottom="@+id/digitalStartTrip"
+        android:src="@drawable/ic_baseline_play_arrow_24"
+        app:layout_constraintBottom_toBottomOf="@+id/digitalStartTrip"
+        app:layout_constraintEnd_toStartOf="@+id/digitalStartTrip"
+        app:layout_constraintTop_toTopOf="@+id/digitalStartTrip" />
+
+    <TextView
+        android:id="@+id/digitalStartTrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="Start Trip"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/digitalStartImageBtn"
+        app:layout_constraintEnd_toEndOf="@+id/digitalStartImageBtn"
+        app:layout_constraintStart_toStartOf="@+id/digitalStartImageBtn"
+        app:layout_constraintTop_toTopOf="@+id/digitalStartImageBtn"
+        app:layout_constraintVertical_bias="0.5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

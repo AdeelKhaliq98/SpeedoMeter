@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/myPremium"
+        android:icon="@drawable/premium"
+        android:title="Premium" />
+    <item
+        android:id="@+id/myHistory"
+        android:icon="@drawable/history"
+        android:title="History" />
+    <item
+        android:id="@+id/mySettings"
+        android:icon="@drawable/setting"
+        android:title="Settings" />
+    <item
+        android:id="@+id/myPrivacy"
+        android:icon="@drawable/privacy"
+        android:title="Privacy Policy" />
+    <item
+        android:id="@+id/myShare"
+        android:icon="@drawable/share"
+        android:title="Share" />
+</menu>

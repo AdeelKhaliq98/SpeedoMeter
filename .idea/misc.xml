@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Adeel Ch/StudioProjects/SpeedoMeter2/app/src/main/res/drawable/bottom_indicator.xml" value="0.187" />
+        <entry key="..\:/Users/Adeel Ch/StudioProjects/SpeedoMeter2/app/src/main/res/drawable/button_background.xml" value="0.18" />
+        <entry key="..\:/Users/Adeel Ch/StudioProjects/SpeedoMeter2/app/src/main/res/drawable/buttonbackground.xml" value="0.18" />
+        <entry key="..\:/Users/Adeel Ch/StudioProjects/SpeedoMeter2/app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="0.1805" />
+        <entry key="..\:/Users/Adeel Ch/StudioProjects/SpeedoMeter2/app/src/main/res/drawable/stopbutton_background.xml" value="0.1805" />
+        <entry key="..\:/Users/Adeel Ch/StudioProjects/SpeedoMeter2/app/src/main/res/font/fonts.xml" value="0.166015625" />
+        <entry key="..\:/Users/Adeel Ch/StudioProjects/SpeedoMeter2/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Adeel Ch/StudioProjects/SpeedoMeter2/app/src/main/res/layout/bottom_nav_list.xml" value="0.67" />
+        <entry key="..\:/Users/Adeel Ch/StudioProjects/SpeedoMeter2/app/src/main/res/layout/fragment_analog.xml" value="0.67" />
+        <entry key="..\:/Users/Adeel Ch/StudioProjects/SpeedoMeter2/app/src/main/res/layout/fragment_digital.xml" value="0.15775972637879435" />
+        <entry key="..\:/Users/Adeel Ch/StudioProjects/SpeedoMeter2/app/src/main/res/layout/nav_header.xml" value="0.1921875" />
+        <entry key="..\:/Users/Adeel Ch/StudioProjects/SpeedoMeter2/app/src/main/res/layout/speed.xml" value="0.33" />
+        <entry key="..\:/Users/Adeel Ch/StudioProjects/SpeedoMeter2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.67" />
+        <entry key="..\:/Users/Adeel Ch/StudioProjects/SpeedoMeter2/app/src/main/res/menu/nav_drawer_menu.xml" value="0.1921875" />
+        <entry key="..\:/Users/Adeel Ch/StudioProjects/SpeedoMeter2/app/src/main/res/xml/attrs.xml" value="0.1921875" />
+        <entry key="..\:/Users/Adeel/AndroidStudioProjects/SpeedoMeter2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1845" />
+        <entry key="..\:/Users/Adeel/AndroidStudioProjects/SpeedoMeter2/app/src/main/res/drawable/bottom_indicator.xml" value="0.284" />
+        <entry key="..\:/Users/Adeel/AndroidStudioProjects/SpeedoMeter2/app/src/main/res/drawable/button_background.xml" value="0.1845" />
+        <entry key="..\:/Users/Adeel/AndroidStudioProjects/SpeedoMeter2/app/src/main/res/drawable/ic_analog.xml" value="0.298" />
+        <entry key="..\:/Users/Adeel/AndroidStudioProjects/SpeedoMeter2/app/src/main/res/drawable/ic_baseline_pause_24.xml" value="0.1845" />
+        <entry key="..\:/Users/Adeel/AndroidStudioProjects/SpeedoMeter2/app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="0.1845" />
+        <entry key="..\:/Users/Adeel/AndroidStudioProjects/SpeedoMeter2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1845" />
+        <entry key="..\:/Users/Adeel/AndroidStudioProjects/SpeedoMeter2/app/src/main/res/drawable/ic_satellite_dish_radar.xml" value="0.1845" />
+        <entry key="..\:/Users/Adeel/AndroidStudioProjects/SpeedoMeter2/app/src/main/res/drawable/ic_satellite_svgrepo_com.xml" value="0.284" />
+        <entry key="..\:/Users/Adeel/AndroidStudioProjects/SpeedoMeter2/app/src/main/res/drawable/stopbutton_background.xml" value="0.1845" />
+        <entry key="..\:/Users/Adeel/AndroidStudioProjects/SpeedoMeter2/app/src/main/res/layout/activity_history_record.xml" value="0.2911500641299701" />
+        <entry key="..\:/Users/Adeel/AndroidStudioProjects/SpeedoMeter2/app/src/main/res/layout/activity_main.xml" value="0.75" />
+        <entry key="..\:/Users/Adeel/AndroidStudioProjects/SpeedoMeter2/app/src/main/res/layout/bottom_nav_layout.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Adeel/AndroidStudioProjects/SpeedoMeter2/app/src/main/res/layout/bottom_nav_list.xml" value="0.2911500641299701" />
+        <entry key="..\:/Users/Adeel/AndroidStudioProjects/SpeedoMeter2/app/src/main/res/layout/fragment_analog.xml" value="0.75" />
+        <entry key="..\:/Users/Adeel/AndroidStudioProjects/SpeedoMeter2/app/src/main/res/layout/fragment_digital.xml" value="0.75" />
+        <entry key="..\:/Users/Adeel/AndroidStudioProjects/SpeedoMeter2/app/src/main/res/layout/fragment_map.xml" value="0.9" />
+        <entry key="..\:/Users/Adeel/AndroidStudioProjects/SpeedoMeter2/app/src/main/res/layout/history_viw_list.xml" value="0.85125" />
+        <entry key="..\:/Users/Adeel/AndroidStudioProjects/SpeedoMeter2/app/src/main/res/layout/item_view_pager.xml" value="0.2911500641299701" />
+        <entry key="..\:/Users/Adeel/AndroidStudioProjects/SpeedoMeter2/app/src/main/res/layout/nav_header.xml" value="0.2911500641299701" />
+        <entry key="..\:/Users/Adeel/AndroidStudioProjects/SpeedoMeter2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.9" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
